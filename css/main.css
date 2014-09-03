@@ -7,6 +7,17 @@ html
 	  background-size: cover;
 	}
 
-h1{
-	
-  }	
+h1
+	{
+	text-align: center;
+	font-family: Bodoni MT;
+	font-size: 400px;
+	opacity: 0.75;
+	filter: Alpha(opacity=50);
+	padding: 1cm; 
+	}	
+
+.me
+	{
+	display: block;	
+	}	
