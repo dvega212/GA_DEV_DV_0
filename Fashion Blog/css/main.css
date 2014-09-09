@@ -2,8 +2,9 @@ body
       {
       font-size: 20px;
       font-family: 'lato', san-serif;
-      margin-left: 55px;
-      margin-right: 55px;
+      margin-left: 65px;
+      margin-right: 65px;
+      margin-bottom: 65px
         
       }
 h2
@@ -11,6 +12,10 @@ h2
        font-weight: normal;
        margin-bottom: 10px;
        margin-top: 10px;
+      }
+p     
+      {
+       padding-top: 10px; 
       }
 
 #title
@@ -21,9 +26,9 @@ h2
 #headernav a 
       {
       padding-bottom: .3em;
-      margin-right: 2em;
+      margin-right: 3em;
       color: gray;
-      font-size: .8em;
+      font-size: .9em;
       text-decoration: none;
       border-bottom: 2px solid gray;
       }
@@ -48,7 +53,25 @@ h2
       font-size: 100px;
       float: left;
       padding-top: -30px;
+      color: solid gray;
       }
-
+#continue
+      {
+       position: relative left;
+       font-weight: bold;
+       color: red; 
+      }
+#footernav a
+      {
+      padding-bottom: .2em;
+      margin-right: 3em;
+      margin-top: 30px;
+      color: red;
+      font-size: .9em;
+      text-decoration: none;
+      border-right: 2px solid gray;
+      padding-right: 1em;
+      padding-left: .5em; 
+      }
 
       
