@@ -2,16 +2,16 @@ body
       {
       font-size: 20px;
       font-family: 'lato', san-serif;
-      margin-left: 65px;
-      margin-right: 65px;
+      margin-left: 200px;
+      margin-right: 200px;
       margin-bottom: 65px
         
       }
 h2
       {
        font-weight: normal;
-       margin-bottom: 10px;
-       margin-top: 10px;
+       margin-bottom: 30px;
+       margin-top: 30px;
       }
 p     
       {
@@ -21,6 +21,7 @@ p
 #title
       {
      color: red;
+
       }
 
 #headernav a 
@@ -35,12 +36,13 @@ p
 
 #maincontent
       {
-     margin-top: 30px; 
+      margin-top: 30px; 
       }
 
 .faded
      {
       color: gray;
+      font-weight: lighter;
      }
 
 .heroimage
@@ -52,26 +54,25 @@ p
       {
       font-size: 100px;
       float: left;
-      padding-top: -30px;
-      color: solid gray;
+      margin-top: -20px;
+      color: gray;
       }
 #continue
       {
        position: relative left;
        font-weight: bold;
        color: red; 
+       text-decoration: none;
+       padding-bottom: 20px;
       }
 #footernav a
       {
-      padding-bottom: .2em;
-      margin-right: 3em;
-      margin-top: 30px;
+      margin-right: 2em;  
+      margin-top: 2em;
       color: red;
       font-size: .9em;
       text-decoration: none;
-      border-right: 2px solid gray;
-      padding-right: 1em;
-      padding-left: .5em; 
+      text-align: center;
       }
 
       
