@@ -1,21 +1,47 @@
-
+body	
+		  {
+		  background: url(../images/UrbanCracked.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		  }
 .lightbox
 		  {
 		  background-color: black;
-		  width: 250px;
+		  width: 180px;
 		  padding-left: 10px;
 		  padding-top: 10px;
 		  padding-bottom: 10px;
 		  padding-right: 10px;
+		  position: static;
+		  margin-left: 300px;
+		  margin-top: 40px;
 		  }
 
-
+.buttons
+		  
+		  {
+		  background-color: black;
+		  width: 250px;
+		  height: 490px;
+		  padding-left: 10px;
+		  padding-top: 10px;
+		  padding-bottom: 10px;
+		  padding-right: 10px;
+		  position: static;
+		  margin-left: 700px;
+		  margin-top: -550px;
+		  }	
+		  
 #green-light
 		  {
-		  width: 200px;
-		  height: 200px;
+		  width: 180px;
+		  height: 180px;
 		  border-radius: 50%  ;
 		  background-color: green;
+		  padding-bottom: 5px;
+		  margin-bottom: 5px;
 		  }
 
 #green-light:hover
@@ -26,10 +52,12 @@
 
 #yellow-light
 		  {
-		  width: 200px;
-		  height: 200px;
+		  width: 180px;
+		  height: 180px;
 		  border-radius: 50%  ;
 		  background-color: yellow;
+		  padding-bottom: 5px;
+		  margin-bottom: 5px;
 		  }
 
 #yellow-light:hover
@@ -40,14 +68,86 @@
 
 #red-light
 		  {
-		  width: 200px;
-		  height: 200px;
+		  width: 180px;;
+		  height: 180px;
 		  border-radius: 50%  ;
 		  background-color: red;
+		  padding-bottom: 5px;
+		  margin-bottom: 5px;
 		  }
 
 #red-light:hover
 		  {
 		  background-color: red;
 		  opacity: .5;
-		  }		  		  	  
+		  }		  		
+
+#go
+		  {
+		  text-align: center;	
+		  font-family: Helvetica;	
+		  font-size: 30px;
+		  color: green;
+		  border-style: groove;
+		  border-color: green;
+		  margin-bottom: 10px
+		  }	
+
+#go:hover
+		  {
+		  background-color: white;
+		  opacity: .5;
+		  }	    	
+
+#slow
+		  {
+		  text-align: center;
+		  font-family: Helvetica;	
+		  font-size: 30px;
+		  color: yellow;
+		  border-style: groove;
+		  border-color: yellow;
+		  margin-bottom: 10px		
+		  }
+
+#slow:hover
+		  {
+		  background-color: white;
+		  opacity: .5;
+		  }	    			  
+
+#stop
+		  {
+		  text-align: center;	
+		  font-family: Helvetica;	
+		  font-size: 30px;
+		  color: red;
+		  border-style: groove;
+		  border-color: red;
+		  margin-bottom: 10px		
+		  }	
+
+#stop:hover
+		  {
+		  background-color: white;
+		  opacity: .5;
+		  }	    			  	  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
