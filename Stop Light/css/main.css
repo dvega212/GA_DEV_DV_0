@@ -1,0 +1,53 @@
+
+.lightbox
+		  {
+		  background-color: black;
+		  width: 250px;
+		  padding-left: 10px;
+		  padding-top: 10px;
+		  padding-bottom: 10px;
+		  padding-right: 10px;
+		  }
+
+
+#green-light
+		  {
+		  width: 200px;
+		  height: 200px;
+		  border-radius: 50%  ;
+		  background-color: green;
+		  }
+
+#green-light:hover
+		  {
+		  background-color: green;
+		  opacity: .5;
+		  }
+
+#yellow-light
+		  {
+		  width: 200px;
+		  height: 200px;
+		  border-radius: 50%  ;
+		  background-color: yellow;
+		  }
+
+#yellow-light:hover
+		  {
+		  background-color: yellow;
+		  opacity: .5;
+		  }	
+
+#red-light
+		  {
+		  width: 200px;
+		  height: 200px;
+		  border-radius: 50%  ;
+		  background-color: red;
+		  }
+
+#red-light:hover
+		  {
+		  background-color: red;
+		  opacity: .5;
+		  }		  		  	  
