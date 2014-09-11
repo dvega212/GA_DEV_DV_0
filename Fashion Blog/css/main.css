@@ -1,77 +1,66 @@
-body
-      {
-      font-size: 20px;
-      font-family: 'lato', san-serif;
-      margin-left: 200px;
-      margin-right: 200px;
-      margin-bottom: 65px
-        
-      }
-h2
-      {
-       font-weight: normal;
-       margin-bottom: 30px;
-       margin-top: 30px;
-      }
-p     
-      {
-       padding-top: 10px; 
-      }
+body {
+  font-size: 20px;
+  font-family: 'lato', san-serif;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 65px  
+}
 
-#title
-      {
-     color: red;
+h2 {
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 
-      }
+p {
+  padding-top: 10px; 
+}
 
-#headernav a 
-      {
-      padding-bottom: .3em;
-      margin-right: 3em;
-      color: gray;
-      font-size: .9em;
-      text-decoration: none;
-      border-bottom: 2px solid gray;
-      }
+.faded {
+  color: gray;
+  font-weight: lighter;
+}
 
-#maincontent
-      {
-      margin-top: 30px; 
-      }
+.heroimage {
+  height: 300px;
+}
 
-.faded
-     {
-      color: gray;
-      font-weight: lighter;
-     }
+.indent {
+  font-size: 100px;
+  float: left;
+  margin-top: -20px;
+  color: gray;
+}
 
-.heroimage
-      {
-      height: 300px;
-      }
+#continue {
+  position: relative left;
+  font-weight: bold;
+  color: red; 
+  text-decoration: none;
+}
 
-.indent
-      {
-      font-size: 100px;
-      float: left;
-      margin-top: -20px;
-      color: gray;
-      }
-#continue
-      {
-       position: relative left;
-       font-weight: bold;
-       color: red; 
-       text-decoration: none;
-      }
-#footernav a
-      {
-      margin-right: 2em;  
-      margin-top: 2em;
-      color: red;
-      font-size: .9em;
-      text-decoration: none;
-      text-align: center;
-      }
+#title {
+  color: red;
+}
 
-      
+#maincontent {
+  margin-top: 30px; 
+}
+
+#headernav a {
+  padding-bottom: .3em;
+  margin-right: 3em;
+  color: gray;
+  font-size: .9em;
+  text-decoration: none;
+  border-bottom: 2px solid gray;
+}
+
+#footernav a {
+  margin-right: 2em;  
+  margin-top: 2em;
+  color: red;
+  font-size: .9em;
+  text-decoration: none;
+  text-align: center;
+}
