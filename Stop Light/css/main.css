@@ -46,7 +46,7 @@ body
 
 #green-light:hover
 		  {
-		  background-color: green;
+		  background-color: white;
 		  opacity: .5;
 		  }
 
@@ -62,7 +62,7 @@ body
 
 #yellow-light:hover
 		  {
-		  background-color: yellow;
+		  background-color: white;
 		  opacity: .5;
 		  }	
 
@@ -78,7 +78,7 @@ body
 
 #red-light:hover
 		  {
-		  background-color: red;
+		  background-color: white;
 		  opacity: .5;
 		  }		  		
 
