@@ -1,38 +1,38 @@
-body	
-		  {
-		  background: url(../images/UrbanCracked.jpg) no-repeat center center fixed; 
-		  -webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;
-		  }
-.lightbox
-		  {
-		  background-color: black;
-		  width: 180px;
-		  padding-left: 10px;
-		  padding-top: 10px;
-		  padding-bottom: 10px;
-		  padding-right: 10px;
-		  position: static;
-		  margin-left: 300px;
-		  margin-top: 40px;
-		  }
+body {
+	background: url(../images/UrbanCracked.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
-.buttons
-		  
-		  {
-		  background-color: white;
-		  width: 250px;
-		  height: 490px;
-		  padding-left: 10px;
-		  padding-top: 10px;
-		  padding-bottom: 10px;
-		  padding-right: 10px;
-		  position: static;
-		  margin-left: 700px;
-		  margin-top: -550px;
-		  }	
+.lightbox {
+	background-color: black;
+	width: 180px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	position: static;
+	margin-left: 300px;
+	margin-top: 40px;
+}
+
+/*To follow good coding practice, your CSS should look like the examples above.*/
+
+
+.buttons {
+	background-color: white;
+	width: 250px;
+	height: 490px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	position: static;
+	margin-left: 700px;
+	margin-top: -550px;
+}	
 		  
 #green-light
 		  {
@@ -132,22 +132,3 @@ body
 		  background-color: white;
 		  opacity: .5;
 		  }	    			  	  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
