@@ -1,135 +1,120 @@
-body	
-		  {
-		  background: url(../images/UrbanCracked.jpg) no-repeat center center fixed; 
-		  -webkit-background-size: cover;
-		  -moz-background-size: cover;
-		  -o-background-size: cover;
-		  background-size: cover;
-		  }
-.lightbox
-		  {
-		  background-color: black;
-		  width: 180px;
-		  padding-left: 10px;
-		  padding-top: 10px;
-		  padding-bottom: 10px;
-		  padding-right: 10px;
-		  position: static;
-		  margin-left: 300px;
-		  margin-top: 40px;
-		  }
+body {
+	background: url(../images/UrbanCracked.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
-.buttons
+.lightbox {
+	background-color: black;
+	width: 180px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	position: static;
+	margin-left: 300px;
+	margin-top: 40px;
+}
+
+.buttons {
+	background-color: white;
+	width: 250px;
+	height: 490px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	position: static;
+	margin-left: 700px;
+	margin-top: -550px;
+}	
 		  
-		  {
-		  background-color: white;
-		  width: 250px;
-		  height: 490px;
-		  padding-left: 10px;
-		  padding-top: 10px;
-		  padding-bottom: 10px;
-		  padding-right: 10px;
-		  position: static;
-		  margin-left: 700px;
-		  margin-top: -550px;
-		  }	
-		  
-#green-light
-		  {
-		  width: 180px;
-		  height: 180px;
-		  border-radius: 50%  ;
-		  background-color: green;
-		  padding-bottom: 5px;
-		  margin-bottom: 5px;
-		  }
+#green-light {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%  ;
+	background-color: green;
+	padding-bottom: 5px;
+    margin-bottom: 5px;
+}
 
-#green-light:hover
-		  {
-		  background-color: white;
-		  opacity: .5;
-		  }
+#green-light:hover {
+	background-color: white;
+	opacity: .5;
+}
 
-#yellow-light
-		  {
-		  width: 180px;
-		  height: 180px;
-		  border-radius: 50%  ;
-		  background-color: yellow;
-		  padding-bottom: 5px;
-		  margin-bottom: 5px;
-		  }
+#yellow-light {
+	width: 180px;
+	height: 180px;
+	border-radius: 50%  ;
+	background-color: yellow;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
 
-#yellow-light:hover
-		  {
-		  background-color: white;
-		  opacity: .5;
-		  }	
+#yellow-light:hover {
+	background-color: white;
+	opacity: .5;
+}	
 
-#red-light
-		  {
-		  width: 180px;;
-		  height: 180px;
-		  border-radius: 50%  ;
-		  background-color: red;
-		  padding-bottom: 5px;
-		  margin-bottom: 5px;
-		  }
+#red-light {
+	width: 180px;;
+	height: 180px;
+	border-radius: 50%;
+	background-color: red;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
 
-#red-light:hover
-		  {
-		  background-color: white;
-		  opacity: .5;
-		  }		  		
+#red-light:hover {
+	background-color: white;
+	opacity: .5;
+}		  		
 
-#go
-		  {
-		  text-align: center;	
-		  font-family: Helvetica;	
-		  font-size: 30px;
-		  color: green;
-		  border-style: groove;
-		  border-color: green;
-		  margin-bottom: 10px
-		  }	
+#go {
+	text-align: center;	
+	font-family: Helvetica;	
+	font-size: 30px;
+	color: green;
+	border-style: groove;
+	border-color: green;
+	margin-bottom: 10px
+}	
 
-#go:hover
-		  {
-		  background-color: white;
-		  opacity: .5;
-		  }	    	
+#go:hover {
+	background-color: white;
+	opacity: .5;
+}	    	
 
-#slow
-		  {
-		  text-align: center;
-		  font-family: Helvetica;	
-		  font-size: 30px;
-		  color: yellow;
-		  border-style: groove;
-		  border-color: yellow;
-		  margin-bottom: 10px		
-		  }
+#slow {
+	text-align: center;
+	font-family: Helvetica;	
+	font-size: 30px;
+	color: yellow;
+	border-style: groove;
+	border-color: yellow;
+	margin-bottom: 10px		
+}
 
-#slow:hover
-		  {
-		  background-color: white;
-		  opacity: .5;
-		  }	    			  
+#slow:hover {
+	background-color: white;
+	opacity: .5;
+}	    			  
 
-#stop
-		  {
-		  text-align: center;	
-		  font-family: Helvetica;	
-		  font-size: 30px;
-		  color: red;
-		  border-style: groove;
-		  border-color: red;
-		  margin-bottom: 10px		
-		  }	
+#stop {
+	text-align: center;	
+	font-family: Helvetica;	
+	font-size: 30px;
+	color: red;
+	border-style: groove;
+	border-color: red;
+	margin-bottom: 10px		
+}	
 
-#stop:hover
-		  {
-		  background-color: white;
-		  opacity: .5;
-		  }	    			  	  
+#stop:hover {
+	background-color: white;
+	opacity: .5;
+}	    			  	  
 		  
