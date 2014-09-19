@@ -16,6 +16,7 @@ body {
 	position: static;
 	margin-left: 300px;
 	margin-top: 40px;
+	border-radius: 15px;
 }
 
 .buttons {
@@ -29,6 +30,11 @@ body {
 	position: static;
 	margin-left: 700px;
 	margin-top: -550px;
+	cursor:pointer;
+}
+
+.buttons:hover{
+	background-color: white;
 }	
 		  
 #green-light {
