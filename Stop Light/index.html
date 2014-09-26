@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<title>Traffic Light</title>	
+	<title>Traffic Light</title>
+	<script type="text/javascript" src="js/application.js">
+		</script>	
 	<link rel="stylesheet" type="text/css" href="css/main.css" />	
 	</head>
 	<body>
 		<div class="lightbox"> 
-			<div id="green-light"></div>     
-	     	<div id="yellow-light"></div>     
-	     	<div id="red-light"></div> 
+			<div id="green-light">
+			</div>     
+	     	<div id="yellow-light">
+	     	</div>     
+	     	<div id="red-light">
+	     	</div> 
      	</div>   
      	<div class="buttons">
-     		<div id="go"><H1>GO!</H1></div>     
-	     	<div id="slow"><h1>SLOW!</h1></div>     
-	     	<div id="stop"><h1>STOP!</h1></div> 
+     		<div id="go" onclick="go()"><h1>GO!</h1></div>     
+	     	<div id="slow" onclick="go()"><h1>SLOW!</h1></div>     
+	     	<div id="stop" onclick="go()"><h1>STOP!</h1></div> 
      	</div> 
      	<script type="text/javascript" 
      			src="js/application.js">
