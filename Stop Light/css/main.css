@@ -22,7 +22,7 @@ body {
 .buttons {
 	background-color: white;
 	width: 250px;
-	height: 490px;
+	height: 465px;
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -41,7 +41,6 @@ body {
 	width: 180px;
 	height: 180px;
 	border-radius: 50%  ;
-	background-color: green;
 	padding-bottom: 5px;
     margin-bottom: 5px;
 }
@@ -54,8 +53,7 @@ body {
 #yellow-light {
 	width: 180px;
 	height: 180px;
-	border-radius: 50%  ;
-	background-color: yellow;
+	border-radius: 50%;
 	padding-bottom: 5px;
 	margin-bottom: 5px;
 }
@@ -69,7 +67,6 @@ body {
 	width: 180px;;
 	height: 180px;
 	border-radius: 50%;
-	background-color: red;
 	padding-bottom: 5px;
 	margin-bottom: 5px;
 }
