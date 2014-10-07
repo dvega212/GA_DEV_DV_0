@@ -13,3 +13,10 @@ function go(light) {
 	chosenLight.style.backgroundColor = light; 
 
 }
+
+
+function myAlert(sentence){
+	alert(sentence);
+}
+
+
