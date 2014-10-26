@@ -1,0 +1,118 @@
+body{
+	font-family: lato;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 2em;
+}
+
+h1{
+	font-size: 100px;
+	text-align: center;
+	margin-left: 40px;
+    margin-right: 80px;
+    margin-top: 20px;
+    border-top: .3em solid black;
+    border-bottom: .3em solid black; 
+}
+
+p{
+	font-size: .5em;
+}
+
+a{
+	max-width: 800px;
+	text-align: center;
+	display: block;
+	padding-top: .05em;
+	padding-bottom: .05em;
+	text-decoration: none;
+}
+
+img{
+	padding-top: 20px;
+}
+
+.border{
+	padding: 20px;
+}
+
+.videos{
+	 margin-left: 150px;
+     margin-right: 200px;
+}
+#books p{
+	font-size: .75em;
+	text-align: center;
+	text-decoration: none;
+		
+}
+.container-div {
+    width: 800px;
+    height: 300px;
+    position: relative;
+    border: 1px solid grey;
+}
+
+.inner {
+  height: 50px;
+  width: 100px;
+  background: red;
+  position: absolute;
+  bottom: 0px;
+  left: 100px; 
+}
+
+.inner2 {
+  height: 80px;
+  width: 100px;
+  background: blue;
+  position: absolute;
+  bottom: 0px;
+  left: 300px; 
+}
+
+.inner3 {
+  background: green;
+  left: 500px;
+}
+
+.inner4 {
+  background: yellow;
+  left: 700px;
+}
+
+.my-animation {
+  -webkit-animation: myfirst 5s; 
+  -webkit-animation-fill-mode: forwards;
+    animation: myfirst 5s;
+
+@-webkit-keyframes myfirst {
+    100%  {height: 50px;}
+}
+
+@keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+}
+}
+
+.my-animation2 {
+  -webkit-animation: myfirst 5s; 
+  -webkit-animation-fill-mode: forwards;
+    animation: myfirst 5s;  
+}
+@-webkit-keyframes myfirst {
+    100%  {height: 300px;}
+}
+
+@keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+}
+}
