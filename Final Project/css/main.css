@@ -1,22 +1,30 @@
 body{
-	font-family: lato;
+	  font-family: lato;
     margin-left: 200px;
     margin-right: 200px;
     font-size: 2em;
 }
 
 h1{
-	font-size: 100px;
-	text-align: center;
-	margin-left: 40px;
+  	font-size: 100px;
+  	text-align: center;
+  	margin-left: 40px;
     margin-right: 80px;
     margin-top: 20px;
     border-top: .3em solid black;
     border-bottom: .3em solid black; 
 }
 
+h2{
+    font-size: 1em;
+    text-align: center;
+}
+
 p{
-	font-size: .5em;
+  padding-top: 20px;
+	font-size: .75em;
+  max-width: 800px;
+  margin-left: 20px;
 }
 
 a{
@@ -31,6 +39,28 @@ a{
 img{
 	padding-top: 20px;
 }
+#linkback{
+  background-color: darkgrey;
+  padding-top: 15px;
+  margin-top: 10px;
+  border-radius: 15px;
+
+}
+
+#videowrap{
+  background-color: lightgrey;
+  padding-top: 5px;
+  border-radius: 15px;
+
+}
+
+#footer{
+  margin-left: 40px;
+}
+
+.links{
+  margin-left: 70px;
+}
 
 .border{
 	padding: 20px;
@@ -38,81 +68,41 @@ img{
 
 .videos{
 	 margin-left: 150px;
-     margin-right: 200px;
-}
-#books p{
-	font-size: .75em;
-	text-align: center;
-	text-decoration: none;
-		
-}
-.container-div {
-    width: 800px;
-    height: 300px;
-    position: relative;
-    border: 1px solid grey;
+   margin-right: 200px;
 }
 
-.inner {
-  height: 50px;
+.container {
+  height: 300px;
+  width: 800px;
+  background-color: lightgray;
+  position: relative;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.bar {
   width: 100px;
-  background: red;
+  height: 50px;
   position: absolute;
   bottom: 0px;
-  left: 100px; 
+}
+
+.inner1 {
+  background-color: blue;
+  left: 120px
 }
 
 .inner2 {
-  height: 80px;
-  width: 100px;
-  background: blue;
-  position: absolute;
-  bottom: 0px;
-  left: 300px; 
+  background-color: red;
+  left: 280px;
 }
 
 .inner3 {
-  background: green;
-  left: 500px;
+  background-color: yellow;
+  left: 430px;
 }
 
 .inner4 {
-  background: yellow;
-  left: 700px;
-}
-
-.my-animation {
-  -webkit-animation: myfirst 5s; 
-  -webkit-animation-fill-mode: forwards;
-    animation: myfirst 5s;
-
-@-webkit-keyframes myfirst {
-    100%  {height: 50px;}
-}
-
-@keyframes myfirst {
-    0%   {background: red; left: 0px; top: 0px;}
-    25%  {background: yellow; left: 200px; top: 0px;}
-    50%  {background: blue; left: 200px; top: 200px;}
-    75%  {background: green; left: 0px; top: 200px;}
-    100% {background: red; left: 0px; top: 0px;}
-}
-}
-
-.my-animation2 {
-  -webkit-animation: myfirst 5s; 
-  -webkit-animation-fill-mode: forwards;
-    animation: myfirst 5s;  
-}
-@-webkit-keyframes myfirst {
-    100%  {height: 300px;}
-}
-
-@keyframes myfirst {
-    0%   {background: red; left: 0px; top: 0px;}
-    25%  {background: yellow; left: 200px; top: 0px;}
-    50%  {background: blue; left: 200px; top: 200px;}
-    75%  {background: green; left: 0px; top: 200px;}
-    100% {background: red; left: 0px; top: 0px;}
-}
-}
+  background-color: green;
+  left: 580px;
+}  
